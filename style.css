@@ -51,6 +51,23 @@ border: none;
     margin-top: 3.5rem;
 }
 
+.sponsor-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    box-shadow: 1px 2px 3px lightgray;
+    padding: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px) {
     nav{
         flex-direction: column;
@@ -81,5 +98,19 @@ border: none;
     }
     .title{
         text-align: center;
+    }
+    .sponsor-section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: auto;
+        padding:0;
+        align-items: center;
+        box-shadow:none;
+    }
+    .sponsor-section img{
+        width: 50px;
+    }
+    .sponsor{
+        margin: 1rem 0px 0px 2.5rem;
     }
 }
