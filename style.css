@@ -50,3 +50,36 @@ border: none;
     gap: 9rem;
     margin-top: 3.5rem;
 }
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        margin: 1rem;
+    }
+    .banner-section{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-description{
+        width: auto;
+    }
+    .nav-list a{
+        margin-left: 0px;
+        padding-right: 0.5rem;
+
+    }
+    .nav-list ul{
+     text-align: center;
+     justify-content: space-between;
+
+    }
+    .banner-img img{
+        width: 16rem;
+    }
+    .title{
+        text-align: center;
+    }
+}
